@@ -1,0 +1,273 @@
+
+/* SECTION ONE */
+
+.section-one {
+   
+    display: flex;
+  
+}
+
+
+@media screen and (max-width: 1228px) {
+    .section-one {
+        flex-direction: column;
+      justify-content: center;
+      
+    }
+  }
+    
+
+  .eating-image {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+ 
+   
+    
+  
+  }  
+
+.aboutUsText {
+    padding: 30px 60px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: larger;
+    background-color: rgb(83, 79, 79);
+    text-align: center;
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------- */
+
+/* SECTION TWO */
+
+
+
+
+.section-two {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-image: url(/images/food.jpg);
+background-repeat: none;
+background-size: cover;
+
+}
+
+
+
+
+
+
+
+.hours-location {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+ 
+
+    
+
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+
+
+.oltext {
+    background-color: darkgrey;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    padding: 30px;
+    border-radius: 40px;
+ 
+}
+
+h2 {background-color: aliceblue;
+text-transform:uppercase;
+padding: 20px;
+width: 100%;
+text-align: center;
+border: 20px;
+border-style: groove;
+border-color: darkgray;
+border-radius: 80px;
+}
+
+.location {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-maps {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+/* ----------------------------------------- */
+
+/* SECTION THREE */
+
+
+
+
+.bottom-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+    
+}
+
+
+.page-bottom-button, #submit-button {
+  
+    padding: 15px;
+    margin-top:30px;
+    font-size: 20px;
+    background-color: inherit;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    border:2px;
+    border-style:dotted;
+    border-color: white;
+    border-radius: 200px;
+ 
+  
+}
+
+.page-bottom-button:hover, #submit-button:hover {
+    background-color: #705c3a;
+    color: white;
+    border-style: none;
+    box-shadow: 4px 4px 10px 0px black;
+   
+}
+
+
+@media screen and (max-width: 540px) {
+    .bottom-buttons {
+        flex-direction: column;
+        align-items: center;
+      
+    }
+  }
+
+  .text-two, .text-three {
+  
+    background-color: inherit;
+    color: #eadd8e;
+    font-size: 1.4em;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    }
+    
+
+/* ----------------------------------------- */
+
+/* FORM */
+
+.form {
+    padding: 30px;
+    background-color: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+   
+    
+}
+
+label {
+    background-color: inherit;
+    color: white;
+}
+
+.top-rows {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.form-field {
+display: flex;
+margin-bottom: 10px;
+padding-right: 10px;
+
+}
+
+input, .text-box {
+    border: 2px;
+    border-color: brown;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+input:focus, .text-box:focus {
+    background-color: rgba(226, 179, 135, 0.603);
+  }
+
+.message-alone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+textarea {
+    width: 500px;
+    height: 100px;
+    resize:none;
+    overflow:scroll;
+}
+
+
+#submit-button {
+    border: 2;
+    border-color: white;
+    background-color: inherit;
+}
+
+
+
+@media screen and (max-width: 740px) {
+    .form, .top-rows {
+flex-direction: column;    }
+
+        textarea {
+            width: 300px;
+             height: 100px;
+        }
+}
